@@ -101,7 +101,7 @@ export const InsightsPopup: React.FC<PrometheusHealthPopupProps> = ({ responses,
         {isInit && (
           <div>
             <ExternalLink
-              href={`https://cloud.redhat.com/openshift/details/${clusterID}`}
+              href={`https://cloud.redhat.com/openshift/details/${clusterID}#insights`}
               text="Go to OpenShift Cluster Manager"
             />
           </div>
