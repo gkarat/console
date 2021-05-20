@@ -4,7 +4,7 @@ import { PrometheusHealthPopupProps } from '@console/plugin-sdk';
 import { K8sResourceKind } from '@console/internal/module/k8s';
 import { ExternalLink, openshiftHelpBase } from '@console/internal/components/utils';
 
-import AdvisorChart from '../AdvisorChart/index';
+import AdvisorChart from '../AdvisorChart';
 import {
   mapMetrics,
   isWaitingOrDisabled as _isWaitingOrDisabled,
