@@ -4,12 +4,10 @@ import { mount } from 'enzyme';
 import { InsightsPopup } from '../src/components/InsightsPopup/index';
 
 describe('InsightsPopup ', () => {
-
   const props = {
   PrometheusHealthPopupProps:{
-    responses:[
-        {
-            response: {
+    responses:{
+      response: {
                 status: "success",
                 data: {
                     resultType: 'vector',
@@ -90,38 +88,8 @@ describe('InsightsPopup ', () => {
                 }
             },
             error: null
-        },
-        {
-            response: {
-                status: "success",
-                data: {
-                    resultType: 'vector',
-                    result: [
-                        {
-                            metric: {
-                                __name__: "insightsclient_request_send_total",
-                                client: "default",
-                                container: "insights-operator",
-                                endpoint: "https",
-                                instance: "10.128.0.5:8443",
-                                job: "metrics",
-                                namespace: "openshift-insights",
-                                pod: "insights-operator-7b5d69cd76-2nkvj",
-                                prometheus: "openshift-monitoring/k8s",
-                                service: "metrics",
-                                status_code: "202"
-                            },
-                            value: [
-                                1622715671.809,
-                                "5"
-                            ]
-                        }
-                    ]
-                }
-            },
-            error: null
         }
-    ],
+    ,
     k8sResult: {
       loadError: "",
       loaded: true,
@@ -223,7 +191,8 @@ describe('InsightsPopup ', () => {
       },
       optional: true
     }
-  }}
+  }
+}
   const wrapper = mount(<InsightsPopup {...props} />);
   it('main container renders correctly', () => {
     expect(wrapper).toMatchSnapshot();
