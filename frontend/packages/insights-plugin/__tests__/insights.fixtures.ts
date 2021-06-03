@@ -1,13 +1,7 @@
-import { useTranslation } from 'react-i18next';
-import { PrometheusHealthPopupProps } from '@console/plugin-sdk';
-import { K8sResourceKind } from '@console/internal/module/k8s';
-
-import AdvisorChart from '../AdvisorChart';
 import {
-  mapMetrics,
   isWaitingOrDisabled as _isWaitingOrDisabled,
   isError as _isError,
-} from '../../mappers';
+} from '../src/mappers';
 
 const funcs = () => ({
   history: {
@@ -21,6 +15,7 @@ const funcs = () => ({
   mapMetrics: jest.fn(),
   _isWaitingOrDisabled: jest.fn(),
   _isError: jest.fn(),
+  useTranslation: jest.fn(),
 });
 
 const propsForInsightsWidget = {
@@ -205,4 +200,4 @@ const fixtures = {
 };
 
 export default fixtures;
-export default { funcs };
+export { funcs };

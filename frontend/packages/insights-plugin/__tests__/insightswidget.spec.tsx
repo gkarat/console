@@ -9,10 +9,11 @@ describe('InsightsPopup ', () => {
   const props = {
     ...functions,
     ...fixtures,
-    PrometheusHealthPopupProps:{...fixtures.propsForInsightsWidget}
+    responses:{...fixtures.propsForInsightsWidget.responses},
+    k8sResult:{...fixtures.propsForInsightsWidget.k8sResult}
   }
 
-  const wrapper = mount(<InsightsPopup {...props}/>);
+  const wrapper = mount(<InsightsPopup {...props} />);
   it('main container renders correctly', () => {
     expect(wrapper).toMatchSnapshot();
   });
