@@ -4,8 +4,7 @@ import { mount } from 'enzyme';
 import { InsightsPopup } from '../src/components/InsightsPopup/index';
 
 describe('InsightsPopup ', () => {
-  const props = {
-  PrometheusHealthPopupProps:{
+  const PrometheusHealthPopupProps = {
     responses:{
       response: {
                 status: "success",
@@ -192,8 +191,8 @@ describe('InsightsPopup ', () => {
       optional: true
     }
   }
-}
-  const wrapper = mount(<InsightsPopup {...props} />);
+
+  const wrapper = mount(<InsightsPopup {...PrometheusHealthPopupProps} />);
   it('main container renders correctly', () => {
     expect(wrapper).toMatchSnapshot();
   });
