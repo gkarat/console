@@ -1,16 +1,18 @@
 import * as React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 
 import { InsightsPopup } from '../src/components/InsightsPopup/index';
 
 describe('InsightsPopup ', () => {
+
   const props = {
+  PrometheusHealthPopupProps:{
     responses:[
         {
             response: {
                 status: "success",
                 data: {
-                    resultType: "vector",
+                    resultType: 'vector',
                     result: [
                         {
                             metric: {
@@ -93,7 +95,7 @@ describe('InsightsPopup ', () => {
             response: {
                 status: "success",
                 data: {
-                    resultType: "vector",
+                    resultType: 'vector',
                     result: [
                         {
                             metric: {
@@ -221,8 +223,8 @@ describe('InsightsPopup ', () => {
       },
       optional: true
     }
-  }
-  const wrapper = shallow(<InsightsPopup {...props} />);
+  }}
+  const wrapper = mount(<InsightsPopup {...props} />);
   it('main container renders correctly', () => {
     expect(wrapper).toMatchSnapshot();
   });
