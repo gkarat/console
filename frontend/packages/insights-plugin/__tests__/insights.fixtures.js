@@ -205,4 +205,4 @@ const fixtures = {
 };
 
 export default fixtures;
-export default funcs;
+export default { funcs };

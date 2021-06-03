@@ -6,8 +6,13 @@ import fixtures, { funcs } from './insights.fixtures';
 
 describe('InsightsPopup ', () => {
   const functions = funcs();
+  const props = {
+    ...functions,
+    ...fixtures,
+    PrometheusHealthPopupProps:{...fixtures.propsForInsightsWidget}
+  }
 
-  const wrapper = mount(<InsightsPopup {...fixtures} {...functions} />);
+  const wrapper = mount(<InsightsPopup {...props}/>);
   it('main container renders correctly', () => {
     expect(wrapper).toMatchSnapshot();
   });
