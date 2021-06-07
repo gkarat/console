@@ -17,3 +17,21 @@ describe('InsightsPopup ', () => {
     expect(wrapper.debug()).toMatchSnapshot();
   });
 });
+
+describe('InsightsPopup', () => {
+  const functions = funcs();
+  const props = {
+    ...functions,
+    ...fixtures,
+    responses: { ...fixtures.propsForErrorInsightsWidget.responses },
+    k8sResult: { ...fixtures.propsForErrorInsightsWidget.k8sResult },
+  };
+  const wrapper = mount(<InsightsPopup {...props} />);
+
+  it('renders the error component correctly', () => {
+    expect(wrapper.debug()).toMatchSnapshot();
+  });
+  it('should have the correct error component', () => {
+    expect(wrapper.find('.co-status-popup__section text-secondary'));
+  });
+});
