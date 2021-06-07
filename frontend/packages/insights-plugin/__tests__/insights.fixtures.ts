@@ -1,3 +1,5 @@
+import { PrometheusHealthPopupProps } from '@console/plugin-sdk';
+
 const funcs = () => ({
   history: {
     push: jest.fn(),
@@ -13,7 +15,7 @@ const funcs = () => ({
   useTranslation: jest.fn(),
 });
 
-const propsForInsightsWidget = {
+const propsForInsightsWidget: PrometheusHealthPopupProps = {
   responses: [
     {
       response: {
