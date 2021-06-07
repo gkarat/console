@@ -16,12 +16,4 @@ describe('InsightsPopup ', () => {
   it('main container renders correctly', () => {
     expect(wrapper.debug()).toMatchSnapshot();
   });
-
-  it('render the correct popup if response status is isError ', () => {
-    expect(wrapper.debug()).toMatchSnapshot();
-  });
-
-  it('render the correct popup if response status is isWaitingOrDisabled = true ', () => {
-    expect(wrapper.debug()).toMatchSnapshot();
-  });
 });
