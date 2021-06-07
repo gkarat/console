@@ -1,0 +1,1390 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InsightsPopup  main container renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InsightsPopup
+    K8sResourceKind={[Function]}
+    PrometheusHealthPopupProps={[Function]}
+    _isError={[Function]}
+    _isWaitingOrDisabled={[Function]}
+    history={
+      Object {
+        "push": [Function],
+      }
+    }
+    k8sResult={
+      Object {
+        "data": Object {
+          "spec": Object {
+            "clusterID": "d4b48e95-83e8-436c-b2c9-283c05aecc7f",
+          },
+        },
+        "loadError": "",
+        "loaded": true,
+      }
+    }
+    location={
+      Object {
+        "hash": "",
+      }
+    }
+    mapMetrics={[Function]}
+    propsForInsightsWidget={
+      Object {
+        "k8sResult": Object {
+          "data": Object {
+            "spec": Object {
+              "clusterID": "d4b48e95-83e8-436c-b2c9-283c05aecc7f",
+            },
+          },
+          "loadError": "",
+          "loaded": true,
+        },
+        "responses": Array [
+          Object {
+            "error": null,
+            "response": Object {
+              "data": Object {
+                "result": Array [
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "critical",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "0",
+                    ],
+                  },
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "important",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "0",
+                    ],
+                  },
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "low",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "0",
+                    ],
+                  },
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "moderate",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "1",
+                    ],
+                  },
+                ],
+                "resultType": "vector",
+              },
+              "status": "success",
+            },
+          },
+        ],
+      }
+    }
+    responses={
+      Object {
+        "0": Object {
+          "error": null,
+          "response": Object {
+            "data": Object {
+              "result": Array [
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "critical",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "0",
+                  ],
+                },
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "important",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "0",
+                  ],
+                },
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "low",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "0",
+                  ],
+                },
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "moderate",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "1",
+                  ],
+                },
+              ],
+              "resultType": "vector",
+            },
+            "status": "success",
+          },
+        },
+      }
+    }
+    useTranslation={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p>
+          Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters
+        </p>,
+        false,
+        false,
+        <AdvisorChart
+          clusterId=""
+          metrics={
+            Object {
+              "critical": 0,
+              "important": 0,
+              "low": 0,
+              "moderate": 1,
+            }
+          }
+        />,
+        <div
+          className="co-status-popup__section"
+        >
+          
+          <Unknown
+            href="https://cloud.redhat.com/openshift/"
+            text="Go to OpenShift Cluster Manager"
+          />
+        </div>,
+      ],
+      "className": "co-insights__box",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters",
+        },
+        "ref": null,
+        "rendered": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters",
+        "type": "p",
+      },
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "clusterId": "",
+          "metrics": Object {
+            "critical": 0,
+            "important": 0,
+            "low": 0,
+            "moderate": 1,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "",
+            <Unknown
+              href="https://cloud.redhat.com/openshift/"
+              text="Go to OpenShift Cluster Manager"
+            />,
+            false,
+          ],
+          "className": "co-status-popup__section",
+        },
+        "ref": null,
+        "rendered": Array [
+          "",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "href": "https://cloud.redhat.com/openshift/",
+              "text": "Go to OpenShift Cluster Manager",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p>
+            Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters
+          </p>,
+          false,
+          false,
+          <AdvisorChart
+            clusterId=""
+            metrics={
+              Object {
+                "critical": 0,
+                "important": 0,
+                "low": 0,
+                "moderate": 1,
+              }
+            }
+          />,
+          <div
+            className="co-status-popup__section"
+          >
+            
+            <Unknown
+              href="https://cloud.redhat.com/openshift/"
+              text="Go to OpenShift Cluster Manager"
+            />
+          </div>,
+        ],
+        "className": "co-insights__box",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters",
+          },
+          "ref": null,
+          "rendered": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters",
+          "type": "p",
+        },
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "clusterId": "",
+            "metrics": Object {
+              "critical": 0,
+              "important": 0,
+              "low": 0,
+              "moderate": 1,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "",
+              <Unknown
+                href="https://cloud.redhat.com/openshift/"
+                text="Go to OpenShift Cluster Manager"
+              />,
+              false,
+            ],
+            "className": "co-status-popup__section",
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "href": "https://cloud.redhat.com/openshift/",
+                "text": "Go to OpenShift Cluster Manager",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSeventeenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
+
+exports[`InsightsPopup  render the correct popup if response status is isError  1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InsightsPopup
+    K8sResourceKind={[Function]}
+    PrometheusHealthPopupProps={[Function]}
+    _isError={[Function]}
+    _isWaitingOrDisabled={[Function]}
+    history={
+      Object {
+        "push": [Function],
+      }
+    }
+    k8sResult={
+      Object {
+        "data": Object {
+          "spec": Object {
+            "clusterID": "d4b48e95-83e8-436c-b2c9-283c05aecc7f",
+          },
+        },
+        "loadError": "",
+        "loaded": true,
+      }
+    }
+    location={
+      Object {
+        "hash": "",
+      }
+    }
+    mapMetrics={[Function]}
+    propsForInsightsWidget={
+      Object {
+        "k8sResult": Object {
+          "data": Object {
+            "spec": Object {
+              "clusterID": "d4b48e95-83e8-436c-b2c9-283c05aecc7f",
+            },
+          },
+          "loadError": "",
+          "loaded": true,
+        },
+        "responses": Array [
+          Object {
+            "error": null,
+            "response": Object {
+              "data": Object {
+                "result": Array [
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "critical",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "0",
+                    ],
+                  },
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "important",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "0",
+                    ],
+                  },
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "low",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "0",
+                    ],
+                  },
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "moderate",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "1",
+                    ],
+                  },
+                ],
+                "resultType": "vector",
+              },
+              "status": "success",
+            },
+          },
+        ],
+      }
+    }
+    responses={
+      Object {
+        "0": Object {
+          "error": null,
+          "response": Object {
+            "data": Object {
+              "result": Array [
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "critical",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "0",
+                  ],
+                },
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "important",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "0",
+                  ],
+                },
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "low",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "0",
+                  ],
+                },
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "moderate",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "1",
+                  ],
+                },
+              ],
+              "resultType": "vector",
+            },
+            "status": "success",
+          },
+        },
+      }
+    }
+    useTranslation={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p>
+          Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters
+        </p>,
+        false,
+        false,
+        <AdvisorChart
+          clusterId=""
+          metrics={
+            Object {
+              "critical": 0,
+              "important": 0,
+              "low": 0,
+              "moderate": 1,
+            }
+          }
+        />,
+        <div
+          className="co-status-popup__section"
+        >
+          
+          <Unknown
+            href="https://cloud.redhat.com/openshift/"
+            text="Go to OpenShift Cluster Manager"
+          />
+        </div>,
+      ],
+      "className": "co-insights__box",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters",
+        },
+        "ref": null,
+        "rendered": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters",
+        "type": "p",
+      },
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "clusterId": "",
+          "metrics": Object {
+            "critical": 0,
+            "important": 0,
+            "low": 0,
+            "moderate": 1,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "",
+            <Unknown
+              href="https://cloud.redhat.com/openshift/"
+              text="Go to OpenShift Cluster Manager"
+            />,
+            false,
+          ],
+          "className": "co-status-popup__section",
+        },
+        "ref": null,
+        "rendered": Array [
+          "",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "href": "https://cloud.redhat.com/openshift/",
+              "text": "Go to OpenShift Cluster Manager",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p>
+            Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters
+          </p>,
+          false,
+          false,
+          <AdvisorChart
+            clusterId=""
+            metrics={
+              Object {
+                "critical": 0,
+                "important": 0,
+                "low": 0,
+                "moderate": 1,
+              }
+            }
+          />,
+          <div
+            className="co-status-popup__section"
+          >
+            
+            <Unknown
+              href="https://cloud.redhat.com/openshift/"
+              text="Go to OpenShift Cluster Manager"
+            />
+          </div>,
+        ],
+        "className": "co-insights__box",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters",
+          },
+          "ref": null,
+          "rendered": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters",
+          "type": "p",
+        },
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "clusterId": "",
+            "metrics": Object {
+              "critical": 0,
+              "important": 0,
+              "low": 0,
+              "moderate": 1,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "",
+              <Unknown
+                href="https://cloud.redhat.com/openshift/"
+                text="Go to OpenShift Cluster Manager"
+              />,
+              false,
+            ],
+            "className": "co-status-popup__section",
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "href": "https://cloud.redhat.com/openshift/",
+                "text": "Go to OpenShift Cluster Manager",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSeventeenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
+
+exports[`InsightsPopup  render the correct popup if response status is isWaitingOrDisabled = true  1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InsightsPopup
+    K8sResourceKind={[Function]}
+    PrometheusHealthPopupProps={[Function]}
+    _isError={[Function]}
+    _isWaitingOrDisabled={[Function]}
+    history={
+      Object {
+        "push": [Function],
+      }
+    }
+    k8sResult={
+      Object {
+        "data": Object {
+          "spec": Object {
+            "clusterID": "d4b48e95-83e8-436c-b2c9-283c05aecc7f",
+          },
+        },
+        "loadError": "",
+        "loaded": true,
+      }
+    }
+    location={
+      Object {
+        "hash": "",
+      }
+    }
+    mapMetrics={[Function]}
+    propsForInsightsWidget={
+      Object {
+        "k8sResult": Object {
+          "data": Object {
+            "spec": Object {
+              "clusterID": "d4b48e95-83e8-436c-b2c9-283c05aecc7f",
+            },
+          },
+          "loadError": "",
+          "loaded": true,
+        },
+        "responses": Array [
+          Object {
+            "error": null,
+            "response": Object {
+              "data": Object {
+                "result": Array [
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "critical",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "0",
+                    ],
+                  },
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "important",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "0",
+                    ],
+                  },
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "low",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "0",
+                    ],
+                  },
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "moderate",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "1",
+                    ],
+                  },
+                ],
+                "resultType": "vector",
+              },
+              "status": "success",
+            },
+          },
+        ],
+      }
+    }
+    responses={
+      Object {
+        "0": Object {
+          "error": null,
+          "response": Object {
+            "data": Object {
+              "result": Array [
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "critical",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "0",
+                  ],
+                },
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "important",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "0",
+                  ],
+                },
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "low",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "0",
+                  ],
+                },
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "moderate",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "1",
+                  ],
+                },
+              ],
+              "resultType": "vector",
+            },
+            "status": "success",
+          },
+        },
+      }
+    }
+    useTranslation={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p>
+          Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters
+        </p>,
+        false,
+        false,
+        <AdvisorChart
+          clusterId=""
+          metrics={
+            Object {
+              "critical": 0,
+              "important": 0,
+              "low": 0,
+              "moderate": 1,
+            }
+          }
+        />,
+        <div
+          className="co-status-popup__section"
+        >
+          
+          <Unknown
+            href="https://cloud.redhat.com/openshift/"
+            text="Go to OpenShift Cluster Manager"
+          />
+        </div>,
+      ],
+      "className": "co-insights__box",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters",
+        },
+        "ref": null,
+        "rendered": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters",
+        "type": "p",
+      },
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "clusterId": "",
+          "metrics": Object {
+            "critical": 0,
+            "important": 0,
+            "low": 0,
+            "moderate": 1,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "",
+            <Unknown
+              href="https://cloud.redhat.com/openshift/"
+              text="Go to OpenShift Cluster Manager"
+            />,
+            false,
+          ],
+          "className": "co-status-popup__section",
+        },
+        "ref": null,
+        "rendered": Array [
+          "",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "href": "https://cloud.redhat.com/openshift/",
+              "text": "Go to OpenShift Cluster Manager",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p>
+            Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters
+          </p>,
+          false,
+          false,
+          <AdvisorChart
+            clusterId=""
+            metrics={
+              Object {
+                "critical": 0,
+                "important": 0,
+                "low": 0,
+                "moderate": 1,
+              }
+            }
+          />,
+          <div
+            className="co-status-popup__section"
+          >
+            
+            <Unknown
+              href="https://cloud.redhat.com/openshift/"
+              text="Go to OpenShift Cluster Manager"
+            />
+          </div>,
+        ],
+        "className": "co-insights__box",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters",
+          },
+          "ref": null,
+          "rendered": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters",
+          "type": "p",
+        },
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "clusterId": "",
+            "metrics": Object {
+              "critical": 0,
+              "important": 0,
+              "low": 0,
+              "moderate": 1,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "",
+              <Unknown
+                href="https://cloud.redhat.com/openshift/"
+                text="Go to OpenShift Cluster Manager"
+              />,
+              false,
+            ],
+            "className": "co-status-popup__section",
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "href": "https://cloud.redhat.com/openshift/",
+                "text": "Go to OpenShift Cluster Manager",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSeventeenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
