@@ -27,14 +27,14 @@ export const InsightsPopup: React.FC<PrometheusHealthPopupProps> = ({ responses,
         )}
       </p>
       {isError && (
-        <div className="co-status-popup__section text-secondary">
+        <div className="co-status-popup__section-text-secondary">
           <p className="insights-widget-text-error">
             {t('insights-plugin~Temporary unavailable.')}
           </p>
         </div>
       )}
       {isWaitingOrDisabled && (
-        <div className="co-status-popup__section text-secondary">
+        <div className="co-status-popup__section-text-secondary">
           <p className="insights-widget-text-disabled">
             {t('insights-plugin~Disabled or waiting for results.')}
           </p>

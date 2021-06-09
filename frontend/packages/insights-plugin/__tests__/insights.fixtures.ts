@@ -1,21 +1,6 @@
 import { PrometheusHealthPopupProps } from '@console/plugin-sdk';
 
-const funcs = () => ({
-  history: {
-    push: jest.fn(),
-  },
-  location: {
-    hash: '',
-  },
-  PrometheusHealthPopupProps: jest.fn(),
-  K8sResourceKind: jest.fn(),
-  mapMetrics: jest.fn(),
-  _isWaitingOrDisabled: jest.fn(),
-  _isError: jest.fn(),
-  useTranslation: jest.fn(),
-});
-
-const propsForInsightsWidget: PrometheusHealthPopupProps = {
+const propsInsightsPopup: PrometheusHealthPopupProps = {
   responses: [
     {
       response: {
@@ -94,15 +79,14 @@ const propsForInsightsWidget: PrometheusHealthPopupProps = {
     loaded: true,
     data: {
       spec: {
-        clusterID: 'd4b48e95-83e8-436c-b2c9-283c05aecc7f',
+        clusterID: 'd4b48e95-83e8-436c-b2c9-283c05aecc1c',
       },
     },
   },
 };
 
 const fixtures = {
-  propsForInsightsWidget,
+  propsInsightsPopup,
 };
 
 export default fixtures;
-export { funcs };
