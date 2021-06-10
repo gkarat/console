@@ -53,7 +53,22 @@ describe('InsightsPopup error state', () => {
 describe('InsightsPopup disabled state', () => {
   const props = {
     ...fixtures,
-    responses: { ...fixtures.propsInsightsPopup.responses },
+    responses: {
+      ...fixtures.propsInsightsPopup.responses,
+      response: {
+        ...fixtures.propsInsightsPopup.responses[0].response,
+        data: {
+          ...fixtures.propsInsightsPopup.responses[0].response.data,
+          result: {
+            ...fixtures.propsInsightsPopup.responses[0].response.data.result,
+            0: { value: [1622715672.165, '-1'] },
+            1: { value: [1622715672.165, '-1'] },
+            2: { value: [1622715672.165, '-1'] },
+            3: { value: [1622715672.165, '-1'] },
+          },
+        },
+      },
+    },
     k8sResult: { ...fixtures.propsInsightsPopup.k8sResult },
   };
   const wrapper = shallow(<InsightsPopup {...props} />);
