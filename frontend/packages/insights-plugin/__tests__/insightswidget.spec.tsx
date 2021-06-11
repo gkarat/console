@@ -61,10 +61,22 @@ describe('InsightsPopup disabled state', () => {
           ...fixtures.propsInsightsPopup.responses[0].response.data,
           result: {
             ...fixtures.propsInsightsPopup.responses[0].response.data.result,
-            0: { value: [1622715672.165, '-1'] },
-            1: { value: [1622715672.165, '-1'] },
-            2: { value: [1622715672.165, '-1'] },
-            3: { value: [1622715672.165, '-1'] },
+            0: {
+              ...fixtures.propsInsightsPopup.responses[0].response.data.result[0],
+              value: { 1: '-1' },
+            },
+            1: {
+              ...fixtures.propsInsightsPopup.responses[0].response.data.result[1],
+              value: { 1: '-1' },
+            },
+            2: {
+              ...fixtures.propsInsightsPopup.responses[0].response.data.result[2],
+              value: { 1: '-1' },
+            },
+            3: {
+              ...fixtures.propsInsightsPopup.responses[0].response.data.result[3],
+              value: { 1: '-1' },
+            },
           },
         },
       },
