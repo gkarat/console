@@ -18,8 +18,8 @@ exports[`InsightsPopup disabled state renders the isWaitingOrDisabled component 
     Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters
   </p>
   <div className=\\"co-status-popup__section-text-secondary\\">
-    <p className=\\"insights-widget-text-error\\">
-      Temporary unavailable.
+    <p className=\\"insights-widget-text-disabled\\">
+      Disabled or waiting for results.
     </p>
   </div>
   <div className=\\"co-status-popup__section\\">
