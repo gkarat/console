@@ -1,0 +1,984 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Insights plugin <InsightsPopup /> OK state should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InsightsPopup
+    k8sResult={
+      Object {
+        "data": Object {
+          "spec": Object {
+            "clusterID": "d4b48e95-83e8-436c-b2c9-283c05aecc1c",
+          },
+        },
+        "loadError": "",
+        "loaded": true,
+      }
+    }
+    responses={
+      Array [
+        Object {
+          "error": null,
+          "response": Object {
+            "data": Object {
+              "result": Array [],
+              "resultType": "vector",
+            },
+            "status": "success",
+          },
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          id="insights-plugin--header"
+        >
+          Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.
+        </p>,
+        false,
+        false,
+        <AdvisorChart
+          clusterId=""
+          metrics={
+            Object {
+              "critical": 0,
+              "important": 0,
+              "low": 0,
+              "moderate": 1,
+            }
+          }
+        />,
+        <div
+          className="co-status-popup__section"
+        >
+          
+          <Unknown
+            href="https://cloud.redhat.com/openshift/"
+            text="Go to OpenShift Cluster Manager"
+          />
+        </div>,
+      ],
+      "className": "co-insights__box",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.",
+          "id": "insights-plugin--header",
+        },
+        "ref": null,
+        "rendered": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.",
+        "type": "p",
+      },
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "clusterId": "",
+          "metrics": Object {
+            "critical": 0,
+            "important": 0,
+            "low": 0,
+            "moderate": 1,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "",
+            <Unknown
+              href="https://cloud.redhat.com/openshift/"
+              text="Go to OpenShift Cluster Manager"
+            />,
+            false,
+          ],
+          "className": "co-status-popup__section",
+        },
+        "ref": null,
+        "rendered": Array [
+          "",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "href": "https://cloud.redhat.com/openshift/",
+              "text": "Go to OpenShift Cluster Manager",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            id="insights-plugin--header"
+          >
+            Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.
+          </p>,
+          false,
+          false,
+          <AdvisorChart
+            clusterId=""
+            metrics={
+              Object {
+                "critical": 0,
+                "important": 0,
+                "low": 0,
+                "moderate": 1,
+              }
+            }
+          />,
+          <div
+            className="co-status-popup__section"
+          >
+            
+            <Unknown
+              href="https://cloud.redhat.com/openshift/"
+              text="Go to OpenShift Cluster Manager"
+            />
+          </div>,
+        ],
+        "className": "co-insights__box",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.",
+            "id": "insights-plugin--header",
+          },
+          "ref": null,
+          "rendered": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.",
+          "type": "p",
+        },
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "clusterId": "",
+            "metrics": Object {
+              "critical": 0,
+              "important": 0,
+              "low": 0,
+              "moderate": 1,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "",
+              <Unknown
+                href="https://cloud.redhat.com/openshift/"
+                text="Go to OpenShift Cluster Manager"
+              />,
+              false,
+            ],
+            "className": "co-status-popup__section",
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "href": "https://cloud.redhat.com/openshift/",
+                "text": "Go to OpenShift Cluster Manager",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSeventeenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
+
+exports[`Insights plugin <InsightsPopup /> disabled state should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InsightsPopup
+    k8sResult={
+      Object {
+        "data": Object {
+          "spec": Object {
+            "clusterID": "d4b48e95-83e8-436c-b2c9-283c05aecc1c",
+          },
+        },
+        "loadError": "",
+        "loaded": true,
+      }
+    }
+    responses={
+      Array [
+        Object {
+          "error": null,
+          "response": Object {
+            "data": Object {
+              "result": Array [
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "critical",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "-1",
+                  ],
+                },
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "important",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "-1",
+                  ],
+                },
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "low",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "-1",
+                  ],
+                },
+                Object {
+                  "metric": Object {
+                    "__name__": "health_statuses_insights",
+                    "container": "insights-operator",
+                    "endpoint": "https",
+                    "instance": "10.128.0.5:8443",
+                    "job": "metrics",
+                    "metric": "moderate",
+                    "namespace": "openshift-insights",
+                    "pod": "insights-operator-7b5d69cd76-2nkvj",
+                    "prometheus": "openshift-monitoring/k8s",
+                    "service": "metrics",
+                  },
+                  "value": Array [
+                    1622715672.165,
+                    "-1",
+                  ],
+                },
+              ],
+              "resultType": "vector",
+            },
+            "status": "success",
+          },
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          id="insights-plugin--header"
+        >
+          Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.
+        </p>,
+        false,
+        <div
+          className="co-status-popup__section text-secondary"
+        >
+          Disabled or waiting for results.
+        </div>,
+        false,
+        <div
+          className="co-status-popup__section"
+        >
+          <Unknown
+            href="https://docs.okd.io/latest/support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.html"
+            text="More about Insights"
+          />
+        </div>,
+      ],
+      "className": "co-insights__box",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.",
+          "id": "insights-plugin--header",
+        },
+        "ref": null,
+        "rendered": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.",
+        "type": "p",
+      },
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Disabled or waiting for results.",
+          "className": "co-status-popup__section text-secondary",
+        },
+        "ref": null,
+        "rendered": "Disabled or waiting for results.",
+        "type": "div",
+      },
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            false,
+            false,
+            <Unknown
+              href="https://docs.okd.io/latest/support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.html"
+              text="More about Insights"
+            />,
+          ],
+          "className": "co-status-popup__section",
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "href": "https://docs.okd.io/latest/support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.html",
+              "text": "More about Insights",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            id="insights-plugin--header"
+          >
+            Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.
+          </p>,
+          false,
+          <div
+            className="co-status-popup__section text-secondary"
+          >
+            Disabled or waiting for results.
+          </div>,
+          false,
+          <div
+            className="co-status-popup__section"
+          >
+            <Unknown
+              href="https://docs.okd.io/latest/support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.html"
+              text="More about Insights"
+            />
+          </div>,
+        ],
+        "className": "co-insights__box",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.",
+            "id": "insights-plugin--header",
+          },
+          "ref": null,
+          "rendered": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.",
+          "type": "p",
+        },
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Disabled or waiting for results.",
+            "className": "co-status-popup__section text-secondary",
+          },
+          "ref": null,
+          "rendered": "Disabled or waiting for results.",
+          "type": "div",
+        },
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              false,
+              <Unknown
+                href="https://docs.okd.io/latest/support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.html"
+                text="More about Insights"
+              />,
+            ],
+            "className": "co-status-popup__section",
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "href": "https://docs.okd.io/latest/support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.html",
+                "text": "More about Insights",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSeventeenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
+
+exports[`Insights plugin <InsightsPopup /> error state should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InsightsPopup
+    propsInsightsPopup={
+      Object {
+        "k8sResult": Object {
+          "data": Object {
+            "spec": Object {
+              "clusterID": "d4b48e95-83e8-436c-b2c9-283c05aecc1c",
+            },
+          },
+          "loadError": "",
+          "loaded": true,
+        },
+        "responses": Array [
+          Object {
+            "error": null,
+            "response": Object {
+              "data": Object {
+                "result": Array [],
+                "resultType": "vector",
+              },
+              "status": "success",
+            },
+          },
+        ],
+      }
+    }
+    propsInsightsPopupDisabled={
+      Object {
+        "k8sResult": Object {
+          "data": Object {
+            "spec": Object {
+              "clusterID": "d4b48e95-83e8-436c-b2c9-283c05aecc1c",
+            },
+          },
+          "loadError": "",
+          "loaded": true,
+        },
+        "responses": Array [
+          Object {
+            "error": null,
+            "response": Object {
+              "data": Object {
+                "result": Array [
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "critical",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "-1",
+                    ],
+                  },
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "important",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "-1",
+                    ],
+                  },
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "low",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "-1",
+                    ],
+                  },
+                  Object {
+                    "metric": Object {
+                      "__name__": "health_statuses_insights",
+                      "container": "insights-operator",
+                      "endpoint": "https",
+                      "instance": "10.128.0.5:8443",
+                      "job": "metrics",
+                      "metric": "moderate",
+                      "namespace": "openshift-insights",
+                      "pod": "insights-operator-7b5d69cd76-2nkvj",
+                      "prometheus": "openshift-monitoring/k8s",
+                      "service": "metrics",
+                    },
+                    "value": Array [
+                      1622715672.165,
+                      "-1",
+                    ],
+                  },
+                ],
+                "resultType": "vector",
+              },
+              "status": "success",
+            },
+          },
+        ],
+      }
+    }
+    responses={
+      Array [
+        Object {
+          "error": null,
+          "response": Object {
+            "data": Object {
+              "result": Array [],
+              "resultType": "vector",
+            },
+            "status": "success",
+          },
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          id="insights-plugin--header"
+        >
+          Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.
+        </p>,
+        <div
+          className="co-status-popup__section text-secondary"
+        >
+          Temporary unavailable.
+        </div>,
+        false,
+        false,
+        <div
+          className="co-status-popup__section"
+        >
+          <Unknown
+            href="https://docs.okd.io/latest/support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.html"
+            text="More about Insights"
+          />
+        </div>,
+      ],
+      "className": "co-insights__box",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.",
+          "id": "insights-plugin--header",
+        },
+        "ref": null,
+        "rendered": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Temporary unavailable.",
+          "className": "co-status-popup__section text-secondary",
+        },
+        "ref": null,
+        "rendered": "Temporary unavailable.",
+        "type": "div",
+      },
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            false,
+            false,
+            <Unknown
+              href="https://docs.okd.io/latest/support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.html"
+              text="More about Insights"
+            />,
+          ],
+          "className": "co-status-popup__section",
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "href": "https://docs.okd.io/latest/support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.html",
+              "text": "More about Insights",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            id="insights-plugin--header"
+          >
+            Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.
+          </p>,
+          <div
+            className="co-status-popup__section text-secondary"
+          >
+            Temporary unavailable.
+          </div>,
+          false,
+          false,
+          <div
+            className="co-status-popup__section"
+          >
+            <Unknown
+              href="https://docs.okd.io/latest/support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.html"
+              text="More about Insights"
+            />
+          </div>,
+        ],
+        "className": "co-insights__box",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.",
+            "id": "insights-plugin--header",
+          },
+          "ref": null,
+          "rendered": "Insights Advisor identifies and prioritizes risks to security, performance, availability, and stability of your clusters.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Temporary unavailable.",
+            "className": "co-status-popup__section text-secondary",
+          },
+          "ref": null,
+          "rendered": "Temporary unavailable.",
+          "type": "div",
+        },
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              false,
+              <Unknown
+                href="https://docs.okd.io/latest/support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.html"
+                text="More about Insights"
+              />,
+            ],
+            "className": "co-status-popup__section",
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "href": "https://docs.okd.io/latest/support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.html",
+                "text": "More about Insights",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSeventeenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

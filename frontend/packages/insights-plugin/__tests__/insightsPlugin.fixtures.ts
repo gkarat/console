@@ -85,7 +85,7 @@ const propsInsightsPopup: PrometheusHealthPopupProps = {
   },
 };
 
-const propsInsightsPopupIsDisabled: PrometheusHealthPopupProps = {
+const propsInsightsPopupDisabled: PrometheusHealthPopupProps = {
   responses: [
     {
       response: {
@@ -172,7 +172,7 @@ const propsInsightsPopupIsDisabled: PrometheusHealthPopupProps = {
 
 const fixtures = {
   propsInsightsPopup,
-  propsInsightsPopupIsDisabled,
+  propsInsightsPopupDisabled,
 };
 
 export default fixtures;
